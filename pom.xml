@@ -7,7 +7,7 @@
     <groupId>io.github.oshan96</groupId>
     <artifactId>open-fighting</artifactId>
     <version>1.0</version>
-
+    <packaging>war</packaging> 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -19,13 +19,13 @@
             <groupId>org.jogamp.gluegen</groupId>
             <artifactId>gluegen-rt-main</artifactId>
             <version>2.3.2</version>
-            <packaging>war</packaging>
+            
         </dependency>
         <dependency>
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>jogl-all-main</artifactId>
             <version>2.3.2</version>
-            <packaging>war</packaging>
+            
         </dependency>
     </dependencies>
 
